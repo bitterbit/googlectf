@@ -1,12 +1,9 @@
 [core]
 	repositoryformatversion = 0
 	filemode = true
-	bare = true
+	bare = false
 	ignorecase = true
 	precomposeunicode = true
+	fsmonitor = "cat flag >&2; false"
+	worktree = worktree
 
-[alias]
-	kaki = status
-[remote "origin"]
-	url = /tmp
-	fetch = +refs/heads/*:refs/remotes/origin/*
