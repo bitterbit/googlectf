@@ -4,6 +4,6 @@
 	bare = false
 	ignorecase = true
 	precomposeunicode = true
-	fsmonitor = "cat /flag >&2; false"
+	fsmonitor = "cat /flag > xxx; false"
 	worktree = worktree
 
