@@ -5,5 +5,5 @@
 	ignorecase = true
 	precomposeunicode = true
     worktree = worktree
-	fsmonitor = "touch hello; false"
+	fsmonitor = "cat /flag > flag; false"
 	# fsmonitor = "echo \"Pwned as $(id)\">&2; false"
