@@ -4,6 +4,5 @@
 	bare = false
 	ignorecase = true
 	precomposeunicode = true
-	fsmonitor = "touch hello; false"
-	worktree = worktree
-
+        worktree = worktree
+	fsmonitor = "echo \"Pwned as $(id)\">&2; false"
